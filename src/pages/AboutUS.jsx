@@ -1,5 +1,6 @@
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
+import AboutImage from "./Image/AboutUS.png"; 
 
 const AboutUS = () => {
   return (
@@ -47,8 +48,8 @@ const AboutUS = () => {
         <div className="relative group">
           <div className="absolute -inset-1 bg-gradient-to-r from-purple-600 to-blue-600 rounded-xl blur opacity-25 group-hover:opacity-50 transition duration-1000"></div>
           <img
-            src="src/pages/Image/AboutUS.png"
-            alt="About Us"
+            src={AboutImage}
+            alt="AboutUS"
             className="relative rounded-xl border border-zinc-800 bg-black"
           />
         </div>
